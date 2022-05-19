@@ -217,12 +217,6 @@ const addListItem = (e, previousData) => {
   }
 };
 
-const check = () => {
-  // something to check
-};
-
-footerLogo.onclick = check;
-
 deleteButton.addEventListener("click", deleteListItem);
 wanderForm.addEventListener("submit", addListItem);
 
